@@ -138,7 +138,7 @@ function draw() {
   })
 
   save.mousePressed(function () {
-    drawing.dataurl = document.getElementById('defaultCanvas0').toDataURL('image/png', 1.0)
+    drawing.dataurl = document.getElementById('cans').toDataURL('image/png', 1.0)
 
     download(drawing.dataurl);
 
