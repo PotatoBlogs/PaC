@@ -2,6 +2,10 @@ body {
     background-color:beige;
 }
 
+#cans {
+    outline: lightcoral solid 10px
+}
+
 .currentTool {
     background-color:cadetblue;
 }
